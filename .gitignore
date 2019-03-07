@@ -1,9 +1,12 @@
 # dependencies
-*/node_modules
+node_modules
 
 # build
 dist
 build
+
+# TO REMOVE
+docs-old
 
 # logs
 logs
@@ -11,18 +14,21 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.firebase/
 
 # coverage
-/coverage
+coverage
 
-# Optional npm cache directory
+# Cache directory
 .npm
+cypress
+.next
 
 # Optional eslint cache
 .eslintcache
 
 # dotenv environment variables file
-.env
+.env.local
 
 # webstorm
 .idea/
@@ -32,3 +38,4 @@ yarn-error.log*
 # editors
 .vs
 .vscode
+.DS_Store
